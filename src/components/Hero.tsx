@@ -12,8 +12,7 @@ export default function Hero() {
       </p>
       <div className="mt-8">
         <a
-          href="#"
-          className="bg-black text-white font-semibold py-3 px-8 rounded-full text-lg hover:bg-gray-800 transition-colors"
+          href="#contacto"
         >
           Agendar una Cita
         </a>

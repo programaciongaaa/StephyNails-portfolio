@@ -6,10 +6,11 @@ export default function Navbar() {
           StephyNails
         </div>
         <ul className="flex gap-4">
-          <li>Servicios</li>
-          <li>Nosotros</li>
-          <li>Contacto</li>
-        </ul>
+  <li><a href="#servicios" className="hover:text-gray-400">Servicios</a></li>
+  <li><a href="#galeria" className="hover:text-gray-400">Galería</a></li>
+  <li><a href="#testimonios" className="hover:text-gray-400">Testimonios</a></li>
+  <li><a href="#contacto" className="hover:text-gray-400">Contacto</a></li>
+</ul>
       </div>
     </nav>
   );
